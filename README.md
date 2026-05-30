@@ -1,4 +1,4 @@
-# WA2-Arch — KCAP Repacker untuk White Album 2
+# WA2-Arch KCAP Repacker untuk White Album 2
 
 Tool untuk mengekstrak dan merepack arsip `.pak` (format KCAP) dari game visual novel **White Album 2**.
 
