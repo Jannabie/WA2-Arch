@@ -63,8 +63,8 @@ Struktur yang benar sebelum mulai edit:
 ```
 workspace/
 └── script/           ← folder hasil ekstrak, ini saja yang tersisa
-    ├── 001.ws2
-    ├── 002.ws2
+    ├── 001.bin
+    ├── 001.txt
     └── ...
 ```
 
