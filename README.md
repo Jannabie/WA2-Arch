@@ -17,9 +17,9 @@ Translation successfully repacked back into the game:
 
 ## What Is This?
 
-White Album 2 stores its assets — scripts, images, fonts, and more — in a single archive file using the KCAP format with the `.pak` extension. This repo provides tools to unpack and rebuild these archives, forming the main foundation for both modding and translation purposes.
+White Album 2 stores its assets scripts, images, fonts, and more in a single archive file using the KCAP format with the `.pak` extension. This repo provides tools to unpack and rebuild these archives, forming the main foundation for both modding and translation purposes.
 
-Extraction is handled by **exkizpak** (created by asmodean), while repacking is handled by a Python script called `kcap_repack.py`. The main improvement in this version is full support for **Shift-JIS** encoding for Japanese filenames — which is crucial since this game uses filenames like `14pt袋.tga` for its fonts. Without proper encoding, fonts won't be readable by the game.
+Extraction is handled by **exkizpak** (created by asmodean), while repacking is handled by a Python script called `kcap_repack.py`. The main improvement in this version is full support for **Shift-JIS** encoding for Japanese filenames which is crucial since this game uses filenames like `14pt袋.tga` for its fonts. Without proper encoding, fonts won't be readable by the game.
 
 ---
 
@@ -94,7 +94,7 @@ The repacking process will produce a new `.pak` file ready to use.
 
 ## Technical Notes
 
-The KCAP format limits filename length to **24 bytes in Shift-JIS encoding**. Filenames that are too long will be automatically truncated by the repacker. Additionally, the resulting archive uses no compression at all — this matches the original game's format.
+The KCAP format limits filename length to **24 bytes in Shift-JIS encoding**. Filenames that are too long will be automatically truncated by the repacker. Additionally, the resulting archive uses no compression at all this matches the original game's format.
 
 ---
 
