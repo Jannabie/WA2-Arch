@@ -100,7 +100,7 @@ The KCAP format limits filename length to **24 bytes in Shift-JIS encoding**. Fi
 
 ## Requirements
 
-This tool requires **Python 3.6 or newer**. No external dependencies need to be installed. For extraction, simply use the `exkizpak_v2.exe` already included in this repo — no need to build from source.
+This tool requires **Python 3.6 or newer**. No external dependencies need to be installed. For extraction, simply use the `exkizpak_v2.exe` already included in this repo, no need to build from source.
 
 ---
 
